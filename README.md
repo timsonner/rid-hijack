@@ -23,12 +23,12 @@ https://www.ired.team/offensive-security/persistence/rid-hijacking
 
 | **File/Folder**       | **Description**                                                                 |
 |------------------------|---------------------------------------------------------------------------------|
-| `rid-hijack.ps1`       | PowerShell version. Run with psexec. Modifies registry key RID of target user. |
-| `rid-hijack.cs`        | C# version. Run with psexec. Modifies registry key RID of target user. |
-| `dec-to-hex.ps1`       | Convert last octet of SID to hex. Run with -LittleEndian flag for reversed output. |
-| `create-psexec-regedit-shortcut.ps1` | Create a desktop shortcut to run regedit via psexec. |
-| `let-local-account-rdp-as-admin.ps1` | Creat registry entry that allows RDP admin privs for local admins. |
-| `psexec-variant-commands.md` | Variations of PsExec usage. Run command as other user by specifying script or process |
+| [rid-hijack.ps1](rid-hijack.ps1)       | PowerShell version. Run with psexec. Modifies registry key RID of target user. |
+| [rid-hijack.cs](rid-hijack.cs)        | C# version. Run with psexec. Modifies registry key RID of target user. |
+| [dec-to-hex.ps1](dec-to-hex.ps1)       | Convert last octet of SID to hex. Run with -LittleEndian flag for reversed output. |
+| [create-psexec-regedit-shortcut.ps1](create-psexec-regedit-shortcut.ps1) | Create a desktop shortcut to run regedit via psexec. |
+| [let-local-account-rdp-as-admin.ps1](let-local-account-rdp-as-admin.ps1) | Creat registry entry that allows RDP admin privs for local admins. |
+| [psexec-variant-commands.md](psexec-variant-commands.md) | Variations of PsExec usage. Run command as other user by specifying script or process |
 
 ---
 
