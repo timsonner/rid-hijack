@@ -1,4 +1,8 @@
-# Final Shortcut Target: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -Command Start-Process -NoNewWindow 'c:\tools\pstools\psexec64.exe' '-i -s regedit'
+# Final Shortcut Target: 
+# C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -Command Start-Process -NoNewWindow 'c:\tools\pstools\psexec64.exe' '-i -s regedit'
+
+# To execute regedit directly from PowerShell: 
+# Start-Process -FilePath "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ArgumentList "-WindowStyle Hidden -Command Start-Process -NoNewWindow 'c:\tools\pstools\psexec64.exe' '-i -s regedit'"
 
 # Define the path to the shortcut
 $shortcutPath = "$env:USERPROFILE\Desktop\r3g3dit.lnk"
