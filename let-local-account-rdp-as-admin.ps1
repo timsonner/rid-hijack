@@ -9,4 +9,4 @@
 # New-ItemProperty -Path $RegistryPath -Name $ValueName -Value $Data -PropertyType $ValueType
 
 # Create the registry key and set its value to true. This allows admin accounts to RDP and maintain admin privileges.
-New-ItemProperty -Path (Read-Host "Registry path") -Name (Read-Host "Name") -Value (Read-Host "Value") -PropertyType (Read-Host "Type")
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "LocalAccountTokenFilterPolicy" -Value 1 -PropertyType "DWORD"
